@@ -1,4 +1,4 @@
-# ansible-to-debian-vagrant
+# ansible-debian-vagrant
 
 ## Description
 
@@ -71,7 +71,7 @@ Execute Ansible playbook in verbose mode.
 __Arguments__
 
 ```bash
-$ ansible-playbook  -i environment/hosts-production --vault-password-file .production playbook.yml --private-key ~/repositories/ansible-to-debian-vagrant/.vagrant/machines/bart/virtualbox/private_key -vvv   
+$ ansible-playbook  -i environment/hosts-production --vault-password-file .production playbook.yml --private-key ~/repositories/ansible-debian-vagrant/.vagrant/machines/bart/virtualbox/private_key -vvv   
 ```
 
 ---------------------------------------
@@ -89,5 +89,5 @@ __Arguments__
 $ vagrant ssh   
 
 # From SSH command
-$ ssh vagrant@127.0.0.1 -p 2222 -i ~/repositories/ansible-to-debian-vagrant/.vagrant/machines/bart/virtualbox/private_key
+$ ssh vagrant@127.0.0.1 -p 2222 -i ~/repositories/ansible-debian-vagrant/.vagrant/machines/bart/virtualbox/private_key
 ```
