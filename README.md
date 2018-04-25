@@ -91,5 +91,3 @@ $ vagrant ssh
 # From SSH command
 $ ssh vagrant@127.0.0.1 -p 2222 -i ~/repositories/ansible-to-debian-vagrant/.vagrant/machines/bart/virtualbox/private_key
 ```
-
----------------------------------------
